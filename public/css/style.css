@@ -1,4 +1,2 @@
-.footer{
-    margin-left: -10px;
-    line-height: 10px;
-}
+@import './general.css';
+@import './home.css';

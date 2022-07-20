@@ -6,4 +6,4 @@ const port = 3030;
 
 app.use(express.static('public'));
 app.get('/home', (req,res) => res.sendFile(path.join(__dirname, '/views', 'home.html')));
-app.listen(port, () => (console.log('servidor corriendo en ' + port)));
+app.listen(port, () => (console.log('server running in localhost:// ' + port)));
